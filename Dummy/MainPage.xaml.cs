@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Security.Cryptography;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -19,9 +20,12 @@ namespace Dummy
 {
     public sealed partial class MainPage : Page
     {
+        //Main Form
         public MainPage()
         {
             this.InitializeComponent();
         }
+
+        public void demo() { }
     }
 }
