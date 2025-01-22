@@ -25,5 +25,7 @@ namespace Dummy
         {
             this.InitializeComponent();
         }
+
+        public void Demo() { }
     }
 }
